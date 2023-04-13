@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="auther" content="JYUN-HAO YE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base target="_self" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="" />
+    <link rel="bookmark" href="" />
+    <link
+      rek="stylesheet"
+      href="https://unpkg.com/ress@5.0.2/dist/ress.min.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body class="bodystyle">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <!--  bg-body-tertiary-->
+      <div class="container-fluid">
+        <!-- 品牌logo -->
+        <a class="navbar-brand" href="./page1.html"
+          ><img src="./Image/logo@2x_Resize Image(2).jpg"
+        /></a>
+        <!-- 第一部分 : 手機板 -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvasLg"
+          aria-controls="navbarOffcanvasLg"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 第二部分 : 電腦版 -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="navbarOffcanvasLg"
+          aria-labelledby="navbarOffcanvasLgLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">close</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">美味選購</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">會員專區</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">最新消息</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">品牌地圖</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">關於18度C</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">聯絡我們</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./Image/1636102508593.png"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Image/1676364069695.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./Image/1678844870666.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="btn-container">
+      <button type="button" class="btn btn-outline-primary">新品上市</button>
+      <button type="button" class="btn btn-outline-primary">濃醇巧克力</button>
+      <button type="button" class="btn btn-outline-primary">伴手禮</button>
+      <button type="button" class="btn btn-outline-primary">
+        義式手工冰淇淋
+      </button>
+      <button type="button" class="btn btn-outline-primary">精選咖啡</button>
+      <button type="button" class="btn btn-outline-primary">
+        茶品賞味/可可饗宴
+      </button>
+      <button type="button" class="btn btn-outline-primary">好食推薦</button>
+      <button type="button" class="btn btn-outline-primary">活動專區</button>
+    </div>
+    <div class="border-line wrapper"></div>
+    <div class="new-subtitle">&#9472; 新品上市 &#9472;</div>
+
+    <div class="news-card wrapper">
+      <a class="bg-item" href="#">
+        <div class="item">
+          <img src="./Image/chocolate1.png" />
+          <p>85%濃郁生巧克力(20入/盒)<br /><span>NT$ 660</span></p>
+        </div>
+      </a>
+      <a class="bg-item" href="#">
+        <div class="item">
+          <img src="./Image/chocolate1.png" />
+          <p>85%濃郁生巧克力(20入/盒)<br /><span>NT$ 660</span></p>
+        </div>
+      </a>
+      <a class="bg-item" href="#">
+        <div class="item">
+          <img src="./Image/chocolate1.png" />
+          <p>85%濃郁生巧克力(20入/盒)<br /><span>NT$ 660</span></p>
+        </div>
+      </a>
+      <a class="bg-item" href="#">
+        <div class="item">
+          <img src="./Image/chocolate1.png" />
+          <p>85%濃郁生巧克力(20入/盒)<br /><span>NT$ 660</span></p>
+        </div>
+      </a>
+      <a class="bg-item" href="#">
+        <div class="item">
+          <img src="./Image/chocolate1.png" />
+          <p>85%濃郁生巧克力(20入/盒)<br /><span>NT$ 660</span></p>
+        </div>
+      </a>
+      <a class="bg-item" href="#">
+        <div class="item">
+          <img src="./Image/chocolate1.png" />
+          <p>85%濃郁生巧克力(20入/盒)<br /><span>NT$ 660</span></p>
+        </div>
+      </a>
+      <a class="bg-item" href="#">
+        <div class="item">
+          <img src="./Image/chocolate1.png" />
+          <p>85%濃郁生巧克力(20入/盒)<br /><span>NT$ 660</span></p>
+        </div>
+      </a>
+    </div>
+    <footer class="footer">
+      <ul>
+        <li><a href="#">品牌地圖</a></li>
+        <li><a href="./about.html">關於18度C</a></li>
+        <li><a href="#">美味選購</a></li>
+        <li><a href="#">最新消息</a></li>
+        <li><a href="#">快速訂購</a></li>
+        <li><a href="#">購物須知</a></li>
+        <li><a href="#">會員專區</a></li>
+        <li><a href="#">常見問題</a></li>
+        <li><a href="#">聯絡我們</a></li>
+      </ul>
+    </footer>
+  </body>
+  <script src="./style/bootstrap/js/bootstrap.js"></script>
+</html>

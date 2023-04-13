@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="auther" content="JYUN-HAO YE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base target="_self" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="" />
+    <link rel="bookmark" href="" />
+    <link
+      rek="stylesheet"
+      href="https://unpkg.com/ress@5.0.2/dist/ress.min.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body style="padding-top:65px">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <!--  bg-body-tertiary-->
+      <div class="container-fluid">
+        <!-- 品牌logo -->
+        <a class="navbar-brand" href="./page1.html"
+          ><img src="./Image/logo@2x_Resize Image(2).jpg"
+        /></a>
+        <!-- 第一部分 : 手機板 -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvasLg"
+          aria-controls="navbarOffcanvasLg"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 第二部分 : 電腦版 -->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="navbarOffcanvasLg"
+          aria-labelledby="navbarOffcanvasLgLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">close</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">美味選購</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">會員專區</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">最新消息</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">品牌地圖</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">關於18度C</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">聯絡我們</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="about-bg-img">
+      <h2 class="about-title">關於18度C</h2>
+    </div>
+    <div class="about-link-group wrapper">
+      <ul>
+        <li><a class="about-link" href="./about.html">品牌故事</a></li>
+        <li><a class="about-link" href="#">18度沿革</a></li>
+        <li><a class="about-link" href="#">經營理念</a></li>
+        <li><a class="about-link active" href="./map.html">交通位置</a></li>
+      </ul>
+    </div>
+    <div class="about-map wrapper">
+      <a href="https://goo.gl/maps/JJC37F1Ha7c2md3M9"
+        ><img src="./Image/map.jpg"
+      /></a>
+    </div>
+    <footer class="footer">
+      <ul>
+        <li><a href="#">品牌地圖</a></li>
+        <li><a href="#">關於18度C</a></li>
+        <li><a href="#">美味選購</a></li>
+        <li><a href="#">最新消息</a></li>
+        <li><a href="#">快速訂購</a></li>
+        <li><a href="#">購物須知</a></li>
+        <li><a href="#">會員專區</a></li>
+        <li><a href="#">常見問題</a></li>
+        <li><a href="#">聯絡我們</a></li>
+      </ul>
+    </footer>
+  </body>
+  <script src="./style/bootstrap/js/bootstrap.js"></script>
+</html>
