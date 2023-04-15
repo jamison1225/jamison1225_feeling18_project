@@ -424,6 +424,160 @@ footer.footer {
 }
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
+  .index-bg {
+    background-image: url(../Image/hero-idx-mobile@2x.png);
+    background-size: 60%;
+    background-position: center top;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    .index-bg-img {
+      display: none;
+    }
+    .index-btn-group {
+      // border: 2px solid black;
+      width: 100px;
+      height: 100px;
+      line-height: 12vw;
+      color: #b18f6e;
+      position: absolute;
+      display: block;
+      border: 1px solid #b18f6e;
+      border-radius: 100px;
+      text-align: center;
+      margin-bottom: 60px;
+      font-size: 20px;
+      font-family: "American Typewriter";
+    }
+  }
+  div.news-card {
+    // border: 2px solid black;
+    margin-top: 20px;
+    width: 70%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    // margin: 20px 10px;
+    a.bg-item {
+      border: 1px solid rgba(155, 155, 153, 0.555);
+      background-color: rgba(193, 212, 228, 0.349);
+      width: 100%;
+      // margin: 5px;
+      color: rgb(97, 94, 93);
+
+      img {
+        // border: 2px solid red;
+        width: 100%;
+      }
+      p {
+        margin-top: 20px;
+        text-align: center;
+      }
+    }
+  }
+  .about-bg-img {
+    min-height: 20vh;
+  }
+  .about-link-group {
+    // border: 2px solid blue;
+    ul {
+      // border: 2px solid red;
+      width: 80%;
+      margin: 0 auto;
+      li {
+        margin: 10px 5px;
+      }
+      .about-link {
+        font-size: 1rem;
+        padding: 8px 10px;
+      }
+    }
+  }
+  .about-container {
+    // border: 2px solid black;
+    .top-group {
+      // border: 2px solid blue;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .left-img {
+        img {
+          max-width: 100%;
+        }
+      }
+      .right-group {
+        // border: 2px solid red;
+        width: 100%;
+        margin: 10px 0;
+        .right-title {
+          font-size: 2rem;
+          margin: 10px 0 10px 30px;
+          color: rgb(153, 105, 42);
+        }
+        .right-text {
+          // border: 2px solid seagreen;
+          width: 95%;
+          margin-left: 15px;
+        }
+        img {
+          max-width: 100%;
+          margin: 15px 0px 15px 20px;
+        }
+      }
+    }
+    .bottom-group {
+      // border: 2px solid yellow;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      .bottom-text {
+        // border: 2px solid hotpink;
+        width: 90%;
+        margin: 10px 30px;
+        text-align: justify;
+        line-height: 1.5;
+        letter-spacing: 1px;
+      }
+    }
+  }
+  .about-map {
+    // border: 2px solid orange;
+    margin-top: 20px;
+    a {
+      display: none;
+    }
+    .ifram {
+      display: block;
+      width: 100%;
+    }
+  }
+  footer.footer {
+    margin-top: 20px;
+    background-color: rgba(145, 133, 111, 0.616);
+    padding: 90px;
+    height: auto;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      li {
+        padding: 10px 10px;
+        a {
+          color: aliceblue;
+          margin: 0 8px;
+          letter-spacing: 2px;
+          font-size: 1.3rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .foot a:hover {
+    color: rgb(170, 119, 23);
+    transition: 0.3s;
+  }
 }
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
