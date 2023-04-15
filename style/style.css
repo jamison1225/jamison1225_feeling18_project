@@ -82,6 +82,42 @@ body {
   color: rgb(197, 161, 42);
 }
 
+#menu {
+  width: 500px;
+  overflow: hidden;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu li {
+  width: 100px;
+  height: 22px;
+  line-height: 22px;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+
+#menu a {
+  width: 100px;
+  float: left;
+  overflow: hidden;
+}
+
+#menu span {
+  display: block;
+  margin-top: -30px;
+}
+
+#menu a:hover {
+  padding-top: 30px;
+  transition: all 0.35s ease-in-out;
+}
+
 div.btn-container {
   width: 70%;
   margin: 20px auto;

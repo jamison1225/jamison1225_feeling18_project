@@ -69,7 +69,6 @@ body {
 // .navbar-expand-lg {
 //   border-bottom: 1px solid rgba(109, 109, 109, 0.315);
 // }
-
 .nav-item {
   a {
     border-bottom: 1px solid rgba(109, 109, 109, 0.315);
@@ -78,6 +77,38 @@ body {
 .nav-link:hover {
   color: rgb(197, 161, 42);
 }
+#menu {
+  width: 500px;
+  // margin: 50px auto;
+  overflow: hidden;
+}
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#menu li{
+  width: 100px;
+  height: 22px;
+  line-height: 22px;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+}
+#menu a{
+  width: 100px;
+  float: left;
+  overflow: hidden;
+}
+#menu span {
+  display: block;
+  margin-top: -30px;
+}
+#menu a:hover {
+  padding-top: 30px;
+  transition: all 0.35s ease-in-out;
+}
+
 // -------------------------------------
 div.btn-container {
   // border: 2px solid black;
@@ -424,11 +455,9 @@ footer.footer {
 }
 // `lg` applies to medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
-  
 }
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
-
 }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
