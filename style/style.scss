@@ -79,7 +79,6 @@ body {
 }
 #menu {
   width: 500px;
-  // margin: 50px auto;
   overflow: hidden;
 }
 #menu ul {
@@ -87,15 +86,16 @@ body {
   padding: 0;
   list-style-type: none;
 }
-#menu li{
+#menu li {
   width: 100px;
-  height: 22px;
+  height: 35px;
   line-height: 22px;
   float: left;
   overflow: hidden;
   text-align: center;
+  padding-top: 9.95px;
 }
-#menu a{
+#menu a {
   width: 100px;
   float: left;
   overflow: hidden;
